@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react';
-import Tareas from "../components/Tareas"
+import Tareas from "../components/TareasOriginal"
 import { useEffect } from 'react';
 import cookie from "js-cookie";
 
