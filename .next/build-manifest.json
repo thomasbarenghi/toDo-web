@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/index2": [
+    "/modales1": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index2.js"
-    ],
-    "/index4": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index4.js"
+      "static/chunks/pages/modales1.js"
     ]
   },
   "ampFirstPages": []

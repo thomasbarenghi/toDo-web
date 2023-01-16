@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ClickOutside from 'react-click-outside';
 
 const Tareas = ({ objetos, onDeleteSubtarea, onChangeOpenTask, onDelete, descripcionSubtarea, setDescripcionSubtarea, handleAddAndSubmitSubtarea }) => {
     const [showCreateSubtareaBox, setShowCreateSubtareaBox] = useState(false);
@@ -186,6 +187,7 @@ const Tareas = ({ objetos, onDeleteSubtarea, onChangeOpenTask, onDelete, descrip
                                                 style={{ height: 20, width: 20 }}
                                             />
                                         </button>
+                                        
                                         <div
                                             className="flex-column configBox"
                                             id={`configBox-sub-${i}`}
